@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="mood" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#282828"/>
+      <stop offset="50%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#0e0e0e"/>
+    </radialGradient>
+    <radialGradient id="redGlow" cx="70%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#B93434" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.07 0" />
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#mood)" />
+  <rect width="100%" height="100%" fill="url(#redGlow)" />
+  <rect width="100%" height="100%" filter="url(#noise)" opacity="0.8" />
+
+  <!-- Editorial Framing Lines -->
+  <line x1="60" y1="60" x2="1140" y2="60" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+  <line x1="60" y1="1540" x2="1140" y2="1540" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+  <line x1="60" y1="60" x2="60" y2="1540" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+  <line x1="1140" y1="60" x2="1140" y2="1540" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+
+  <!-- Film Viewfinder Crosshairs -->
+  <line x1="600" y1="560" x2="600" y2="640" stroke="#B93434" stroke-width="1.5" />
+  <line x1="560" y1="600" x2="640" y2="600" stroke="#B93434" stroke-width="1.5" />
+  <circle cx="600" cy="600" r="140" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="4 6" fill="none" />
+
+  <!-- Cinematic Silhouette / Subject Representation -->
+  <path d="M420,1300 C420,950 480,820 600,820 C720,820 780,950 780,1300 Z" fill="#141414" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="600" cy="680" r="130" fill="#181818" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  
+  <!-- Anamorphic Rim Lighting Line -->
+  <path d="M470,680 C470,600 540,550 600,550" stroke="#B93434" stroke-width="3" fill="none" opacity="0.6" />
+
+  <!-- Technical Metadata Typography -->
+  <text x="90" y="110" font-family="'JetBrains Mono', monospace" font-size="16" fill="#8C8C8C" letter-spacing="3">PORTRAIT / STILL 01</text>
+  <text x="90" y="140" font-family="'JetBrains Mono', monospace" font-size="14" fill="#B93434" letter-spacing="2">● REC 24 FPS / 5000K</text>
+  <text x="1110" y="110" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8C8C8C" letter-spacing="2">CASABLANCA / 2026</text>
+
+  <!-- Large Editorial Watermark -->
+  <text x="50%" y="85%" text-anchor="middle" font-family="'Bebas Neue', sans-serif" font-size="160" font-weight="900" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" letter-spacing="10">PRODUCER</text>
+  <text x="50%" y="93%" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8C8C8C" letter-spacing="4">OUSSAMA MAZROUI — CREATIVE DIRECTION</text>
+</svg>

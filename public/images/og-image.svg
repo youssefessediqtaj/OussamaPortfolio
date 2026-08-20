@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="ogBg" cx="30%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#2a1616"/>
+      <stop offset="50%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#ogBg)" />
+  <rect x="40" y="40" width="1120" height="550" stroke="rgba(255,255,255,0.12)" stroke-width="1" fill="none" />
+  
+  <text x="80" y="90" font-family="'JetBrains Mono', monospace" font-size="14" fill="#B93434" letter-spacing="3">● OUSSAMA MAZROUI / 2026</text>
+  <text x="80" y="240" font-family="'Bebas Neue', sans-serif" font-size="96" font-weight="900" fill="#F1F1F1" letter-spacing="4">OUSAMA MAZROUI</text>
+  
+  <text x="80" y="320" font-family="'Syne', sans-serif" font-size="28" font-weight="700" fill="#B93434" letter-spacing="2">CREATIVE PRODUCER &amp; DIGITAL STRATEGIST</text>
+  <text x="80" y="370" font-family="'Inter', sans-serif" font-size="20" fill="#8C8C8C" letter-spacing="1">Cinematic Storytelling + Data-Driven Media Buying + High-Value Partnerships</text>
+  
+  <line x1="80" y1="440" x2="1120" y2="440" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+  <text x="80" y="490" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8C8C8C" letter-spacing="2">CASABLANCA, MOROCCO — AVAILABLE FOR SELECT PROJECTS</text>
+</svg>
