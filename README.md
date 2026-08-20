@@ -1,4 +1,4 @@
-# Oussama Mazroui — Creative Producer & Digital Strategist
+# Oussama Mazroui -— Creative Producer & Digital Strategist
 
 <div align="center">
 
